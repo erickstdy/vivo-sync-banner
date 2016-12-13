@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.vivov5_bb {
+    position: relative;
+    width: 970px;
+    height: 300px;
+    background:url(970x300.png) top left no-repeat;
+}
+.vivov5_bb a, 
+.vivov5_bb .s1, 
+.vivov5_bb .s2, 
+.vivov5_bb .s3 {
+    position: absolute;
+}
+.vivov5_bb a {
+    width: 970px;
+    height: 300px;
+    right: 0;
+    display: block;
+    z-index: 9998;
+}
+
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+.myvideo {
+    position:absolute;
+    width:454px !important;
+    height:250px !important;
+    margin-left: 48px !important;
+    margin-top: 20px !important;
+    border:0px solid red;
+    z-index: 9999;
+}
+.myvideo iframe { 
+    width: 100%; height: 100%;
+}
+
+.vivov5-countdown{ 
+    z-index: 9999;
+    margin-left: 430px
+}
+
+.vivov5-countdown ul { 
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.vivov5-countdown ul li {
+    height: 50px;
+    float: left;
+    width: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+
+}
+.vivov5-countdown ul li.day,
+.vivov5-countdown ul li.hour,
+.vivov5-countdown ul li.minute,
+.vivov5-countdown ul li.second { 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#565555+0,302e2e+50,0a0909+51,494949+100 */
+	background: #2184c7; /* Old browsers */
+	background: -moz-linear-gradient(to bottom, #2184c7 0%,#3d92cc 50%,#2b7bb1 51%,#2184c7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(to bottom, #2184c7 0%,#3d92cc 50%,#2b7bb1 51%,#2184c7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2184c7 0%,#3d92cc 50%,#2b7bb1 51%,#2184c7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565555', endColorstr='#494949',GradientType=0 ); /* IE6-9 */
+	width: 100px;
+    height: 100px;
+	border-radius: 50px;
+}
+.vivov5-countdown ul span {
+    font-size: 65px;
+    text-align: center;
+    display: block;
+    line-height: 1.5em;
+}
+.vivov5-countdown ul p {
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}
+.vivov5-countdown ul li.seperator {
+    color: white;
+    line-height: 2.5em;
+    padding: 1%;
+    font-size: 30px;
+}
